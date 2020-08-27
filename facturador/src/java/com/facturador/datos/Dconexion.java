@@ -42,6 +42,5 @@ public class Dconexion {
         return con;
     }
    
- 
-   
+      
 }

@@ -19,11 +19,6 @@ public class Elogin {
         this.pass = pass;
     }
 
-    @Override
-    public String toString() {
-        return "{" + "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", email=" + email + ", fecha=" + fecha + ", user=" + user + ", pass=" + pass + '}';
-    }
-
    
 
     public int getId() {

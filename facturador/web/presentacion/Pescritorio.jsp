@@ -15,3 +15,4 @@
         <h1>Hello World!</h1>
     </body>
 </html>
+<script src="../js/login.js" type="text/javascript"></script>

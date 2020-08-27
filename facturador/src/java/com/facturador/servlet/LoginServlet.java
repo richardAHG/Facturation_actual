@@ -25,11 +25,17 @@ public class LoginServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        
+        int opc = 1;
         String user = request.getParameter("user");
         String pass = request.getParameter("pass");
-        elogin = new Elogin(user,pass);
+        if (pass.equalsIgnoreCase("")&& user.equalsIgnoreCase("")) {
+            response.sendRedirect("/index.jsp");
+        } else {
+             elogin = new Elogin(user,pass);
+        }
        
+       
+        
         
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
