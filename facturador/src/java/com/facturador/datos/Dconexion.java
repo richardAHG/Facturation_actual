@@ -27,7 +27,7 @@ public class Dconexion {
     public static   String username = "root";
 
     // Clave de usuario
-    public String password = "";
+   public String password = "";
    public Connection conectarMySQL() {
         Connection con = null;
 
