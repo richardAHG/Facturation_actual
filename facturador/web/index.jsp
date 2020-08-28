@@ -40,7 +40,7 @@
                           
                       </div>
                   </div>
-                  <input type="text" class="form-control" id="user" placeholder="Username">
+                    <input  type="text" class="form-control" id="user" placeholder="Username">
                 </div>
               </div>
                 
@@ -54,7 +54,7 @@
                           </svg>
                       </div>
                   </div>
-                  <input type="text" class="form-control" id="pass" placeholder="Password">
+                    <input  type="text" class="form-control" id="pass" placeholder="Password">
                 </div>
               </div>
                 <div class="col-auto">
