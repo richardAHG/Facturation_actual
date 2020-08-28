@@ -13,7 +13,17 @@ function login(){
         pass:pass
         },
         success: function (response) {
-               console.log(response);
+            if (response==1) {
+                alert("DATOS NULOS");
+                window.location.href="/facturador";
+            }
+            else if (response==2) {
+                alert("DATOS CORRECTOS");
+                window.location.href="presentacion/Pescritorio.jsp";
+            } else  {
+                alert("NO EXISTE USUARIO");
+                window.location.href="/facturador";
+            } 
         }
     });
    
