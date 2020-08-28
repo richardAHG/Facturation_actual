@@ -1,9 +1,6 @@
 $( document ).ready(function() {
     
-});
-
-function login(){
-   var user = $("#user").val();
+});var user = $("#user").val();
    var pass = $("#pass").val();
     $.ajax({
         url: "login",
@@ -25,7 +22,10 @@ function login(){
                 window.location.href="/facturador";
             } 
         }
-    });
+    })
+
+function login(){
+   ;
    
 }
 
